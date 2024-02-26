@@ -20,6 +20,23 @@ public class Role {
     public Role(ERole name) {
         this.name = name;
     }
+    // Getters
 
-    //TODO getters and setters
+    public Integer getId () {
+        return id;
+    }
+
+    public ERole getName () {
+        return name;
+    }
+
+    // Setters
+
+    public void setId (Integer id) {
+        this.id = id;
+    }
+
+    public void setName (ERole name) {
+        this.name = name;
+    }
 }
